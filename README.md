@@ -147,12 +147,12 @@ PyAudio==0.2.14
 
 ## 🙌 Credits
 
-Built with ❤️ by **Fiza** and team:
+Built with ❤️ by **AadilChauhan** and team:
 
-- [Aditya](https://www.linkedin.com/in/aditya-profile/)
-- [Ankit](https://www.linkedin.com/in/ankit-profile/)
-- [Aadil Chauhan](https://www.linkedin.com/in/aadilchavhan)
-- [Mohammed Aadil](https://www.linkedin.com/in/mohammedaadil/)
+- [Afshan Sultana ](https://www.linkedin.com/in/syeda-afshan-sultana)
+- [Mohammed Aadil](https://www.linkedin.com/in/mohammed-aadil-39b2182b5/)
+- [Aditya](https://www.linkedin.com/in/kumar-aditya-6374a2332/)
+- [Ankit](https://www.linkedin.com/in/ankit-tiwari-3a1a7b175/)
 
 Using:
 
