@@ -1,0 +1,5 @@
+streamlit==1.46.1
+Pillow==10.3.0
+google-generativeai==0.5.4
+SpeechRecognition==3.10.0
+PyAudio==0.2.14

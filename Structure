@@ -1,0 +1,24 @@
+# Project Structure for Smart Nutrition App
+This document outlines the structure of the Smart Nutrition App project, detailing the purpose of each directory and file.
+
+smartnutrition/
+├── .streamlit/                   # Streamlit config
+│   ├── config.toml               # Streamlit configuration
+│   └── secrets.toml              # Gemini API key storage
+├── assets/                       # Static files
+│   ├── app_logo.jpg              # Image asset
+│   └── logo.jpg                  # Image asset
+├──nutri_env/                   # Virtual environment
+├── wheels/
+    └──  py_audio-0.2.14-cp310-cp310-win_amd64.whl  # PyAudio wheel for Windows                     
+├── app.py                        # Main entry point
+├── bim_calculator.py             # BMI calculator functionality
+├──calorie_calculator.py          # Calorie counter functionality
+├── home.py                       # Home page functionality
+├── mealplanner.py                # Meal planner functionality
+├── README.md                     # Project documentation
+├── requirements.txt              # Dependencies
+├── sidebar.py                    # Navigation component
+└── structure.txt                 # Project structure documentation
+
+
