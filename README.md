@@ -149,12 +149,10 @@ PyAudio==0.2.14
 
 Built with ❤️ by **Aadil Chauhan** and team:
 
-- [Aadil Chauhan](https://www.linkedin.com/in/aadilchavhan/)
 - [Afshan Sultana ](https://www.linkedin.com/in/syeda-afshan-sultana)
 - [Mohammed Aadil](https://www.linkedin.com/in/mohammed-aadil-39b2182b5/)
 - [Kumar Aditya](https://www.linkedin.com/in/kumar-aditya-6374a2332/)
 - [Ankit Tiwari](https://www.linkedin.com/in/ankit-tiwari-3a1a7b175/)
-
 
 Using:
 
