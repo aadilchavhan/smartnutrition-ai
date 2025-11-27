@@ -15,7 +15,7 @@ def recognize_audio(audio_bytes):
         model = genai.GenerativeModel("gemini-2.5-flash")
         response = model.generate_content([
             "You are a transcription expert. Convert this audio to text.",
-            audio_bytes
+            {"mime_type": "audio/webm", "data": audio_bytes}
         ])
         return response.text
     except Exception as e:
