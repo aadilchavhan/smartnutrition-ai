@@ -17,7 +17,7 @@ else:
 
 # ✅ Analyze image with Gemini Vision
 def analyze_meal_image(image_file, custom_prompt=None):
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     base_prompt = """
 You are a professional nutritionist. Analyze this image and provide:
 1. Dish name (or best guess)
@@ -90,7 +90,7 @@ def show(_=None):
             if user_text.strip():
                 with st.spinner("Analyzing..."):
                     try:
-                        model = genai.GenerativeModel("gemini-1.5-flash")
+                        model = genai.GenerativeModel("gemini-2.5-flash")
                         response = model.generate_content(user_text)
                         result = response.text if hasattr(response, "text") else str(response)
                         st.markdown("### 💡 Result")
@@ -117,7 +117,7 @@ def show(_=None):
         if st.session_state.voice_text and st.button("🔍 Analyze Voice"):
             with st.spinner("Analyzing your voice input..."):
                 try:
-                    model = genai.GenerativeModel("gemini-1.5-flash")
+                    model = genai.GenerativeModel("gemini-2.5-flash")
                     response = model.generate_content(st.session_state.voice_text)
                     result = response.text if hasattr(response, "text") else str(response)
                     st.markdown("### 💡 Result")
