@@ -54,16 +54,14 @@ def show_feedback(section="this"):
 # ✅ Main app
 def show(_=None):
     st.markdown("""
-        <style>
-        .stApp {
-            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
-            min-height: 100vh;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-    st.subheader("🏠 Home & Quick Analysis")
-    input_mode = st.radio("Select input mode:", ("Text", "Voice", "Image"), horizontal=True)
+    <style>
+    div[data-testid="stHorizontalBlock"] {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
     # ---------------- TEXT INPUT ----------------
     if input_mode == "Text":
