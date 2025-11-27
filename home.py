@@ -62,6 +62,9 @@ def show(_=None):
     }
     </style>
 """, unsafe_allow_html=True)
+    
+    st.subheader("🏠 Home & Quick Analysis")
+    input_mode = st.radio("Select input mode:", ("Text", "Voice", "Image"), horizontal=True)
 
     # ---------------- TEXT INPUT ----------------
     if input_mode == "Text":
