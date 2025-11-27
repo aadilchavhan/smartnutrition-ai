@@ -1,5 +1,4 @@
 streamlit==1.46.1
 Pillow==10.3.0
 google-generativeai>=0.8.3
-SpeechRecognition==3.10.0
-streamlit-mic-recorder
+streamlit-mic-recorder==0.0.7
