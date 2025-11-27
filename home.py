@@ -55,14 +55,25 @@ def show_feedback(section="this"):
 def show(_=None):
     st.markdown("""
     <style>
+    .stApp {
+        background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+        min-height: 100vh;
+    }
     div[data-testid="stHorizontalBlock"] {
         background-color: transparent !important;
         box-shadow: none !important;
         border: none !important;
+        padding: 0 !important;
+    }
+    div[data-testid="stHorizontalBlock"] button {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0.25rem 0.5rem !important;
     }
     </style>
-""", unsafe_allow_html=True)
-    
+    """, unsafe_allow_html=True)
+
     st.subheader("🏠 Home & Quick Analysis")
     input_mode = st.radio("Select input mode:", ("Text", "Voice", "Image"), horizontal=True)
 
