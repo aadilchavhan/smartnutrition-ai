@@ -5,7 +5,7 @@ import google.generativeai as genai
 # ✅ Gemini API Setup
 try:
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-    MODEL_NAME = "gemini-2.5-pro"
+    MODEL_NAME = "models/gemini-2.5-flash"
     st.session_state["gemini_model"] = MODEL_NAME
 except Exception as e:
     st.error("❌ Gemini API key not found or invalid.")
